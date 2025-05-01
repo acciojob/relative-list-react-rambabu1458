@@ -11,7 +11,7 @@ const App = () => {
       <RelativeList />
       <PageLayout
         header={<h1>Welcome to my website</h1>}
-        footer={<p>&copy; {date} My Website</p>}
+        footer={<p>&copy; 2023 My Website.All rights reserved.</p>}
       >
         <p>This is the content of my website.</p>
       </PageLayout>
