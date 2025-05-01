@@ -4,6 +4,8 @@ import PageLayout from "./PageLayout";
 import SumCalculator from "./SumCalculator";
 import './../styles/App.css';
 import ButtonCounter from "./ButtonCounter";
+import FunctionalComp from "./FunctionalComp";
+import Reviews from "./Reviews";
 
 const App = () => {
   const date = new Date().getFullYear();
@@ -18,7 +20,12 @@ const App = () => {
         <p>This is the content of my website.</p>
       </PageLayout> */}
       {/* <SumCalculator/> */}
-      <ButtonCounter/>
+      {/* <ButtonCounter/> */}
+      {/* <FunctionalComp/> */}
+      <section className="container">
+        <h2 id="review-heading">Our Reviews</h2>
+        <Reviews />
+      </section>
     </div>
   );
 };

@@ -8,9 +8,13 @@ h1 {
 
 button{
     color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    align-content: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+
 }
 footer{
     position: absolute;
@@ -26,4 +30,21 @@ main{
 }
 #main{
     height: calc(100vh - 30px);
+}
+.person-img{
+    height: 160px;
+    object-fit: contain;
+}
+.reviews{
+    align-content: center;
+    margin: auto 300px;
+}
+.review{
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 10px;
+    background: aliceblue;
+}
+.prev-btn{
+    margin: 0px 4px 4px 0;
 }
