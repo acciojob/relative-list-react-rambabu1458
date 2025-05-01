@@ -1,6 +1,7 @@
 import React from "react";
 import RelativeList from "./RelativeList ";
 import PageLayout from "./PageLayout";
+import SumCalculator from "./SumCalculator";
 
 const App = () => {
   const date = new Date().getFullYear();
@@ -14,6 +15,7 @@ const App = () => {
       >
         <p>This is the content of my website.</p>
       </PageLayout>
+      <SumCalculator/>
     </div>
   );
 };
