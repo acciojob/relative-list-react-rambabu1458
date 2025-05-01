@@ -1,6 +1,8 @@
+*{    
+    text-align: center;
+}
 h1 {
     color: #27aedb;
-    text-align: center;
     }
     
 
@@ -10,8 +12,18 @@ button{
     justify-content: center;
     align-items: center;
 }
-h2{
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: black;
-    color: yellow;
-    text-align: center;
+    color: white;
+}
+main{
+    align-content: center;
+    height: calc(100vh - 80px);
+}
+#main{
+    height: calc(100vh - 30px);
 }
