@@ -6,11 +6,11 @@ const RelativeList = () => {
   return (
     <div>
       <h2>RelativeList</h2>
-      <ol key="relativeList">
-        {relatives.map((name, index) => (
-          <li key={`relativeListItem${index + 1}`}>{name}</li>
-        ))}
-      </ol>
+     <ol key="relativeList">
+      {relatives.map((name,index)=>(        
+      <li key={`relativeListItem${index=1}`}>{name}</li>
+      ))}
+     </ol>
     </div>
   );
 };
